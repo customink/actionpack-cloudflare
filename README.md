@@ -1,6 +1,8 @@
 
 # Actionpack::Cloudflare
 
+[![Build Status](https://travis-ci.org/customink/actionpack-cloudflare.svg?branch=master)](https://travis-ci.org/customink/actionpack-cloudflare)
+
 Simple gem that extends Rails `request.remote_ip` to default to Cloudflare's `HTTP_CF_CONNECTING_IP` header.
 
 
