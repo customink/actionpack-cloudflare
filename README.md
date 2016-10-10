@@ -3,7 +3,7 @@
 
 [![Build Status](https://travis-ci.org/customink/actionpack-cloudflare.svg?branch=master)](https://travis-ci.org/customink/actionpack-cloudflare)
 
-Simple gem that extends Rails `request.remote_ip` to default to Cloudflare's `HTTP_CF_CONNECTING_IP` header.
+Simple gem that extends Rails `request.remote_ip` to default to Cloudflare's `HTTP_CF_CONNECTING_IP` header. More about [CloudFlare HTTP Headers](https://support.cloudflare.com/hc/en-us/articles/200170986-How-does-CloudFlare-handle-HTTP-Request-headers-) and why we choose to trust `CF-Connecting-IP`.
 
 
 ## Installation
