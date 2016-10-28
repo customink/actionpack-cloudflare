@@ -49,8 +49,8 @@ GIT
 PATH
   remote: ../
   specs:
-    actionpack-cloudflare (1.0.0)
-      rails (>= 3.2)
+    actionpack-cloudflare (1.1.0)
+      actionpack (>= 3.2)
 
 GEM
   remote: https://rubygems.org/
