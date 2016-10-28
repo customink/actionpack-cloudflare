@@ -12,7 +12,6 @@ Gem::Specification.new do |spec|
   spec.description   = "Simple gem that extends Rails `request.remote_ip` to default to Cloudflare's `HTTP_CF_CONNECTING_IP` header."
   spec.homepage      = 'https://github.com/customink/actionpack-cloudflare'
   spec.license       = 'MIT'
-  spec.metadata['allowed_push_host'] = '' if spec.respond_to?(:metadata)
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
